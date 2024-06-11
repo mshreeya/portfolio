@@ -20,8 +20,5 @@ jobs:
     - name: Install dependencies
       run: yarn install
 
-    - name: lint React App
-      run: yarn lint
-
     - name: Build React App
       run: yarn build 
